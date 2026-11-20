@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.whosman/curatormatch",
+  "title": "Curator Match",
+  "description": "Find Steam curators by name or by the games they covered, with signs of key reselling.",
+  "version": "1.0.0",
+  "websiteUrl": "https://curatormatch.com",
+  "repository": {
+    "url": "https://github.com/whosman/curatormatch-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://curatormatch.com/api/mcp"
+    }
+  ]
+}
